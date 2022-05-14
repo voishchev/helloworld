@@ -1,6 +1,5 @@
 # helloworld
 # helloworld
-======================================
 30.04.2022
   + var, let
   + set, array, tuple, dictionary
