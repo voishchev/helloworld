@@ -1,5 +1,4 @@
 # helloworld
-# helloworld
 30.04.2022
   + var, let
   + set, array, tuple, dictionary
@@ -88,4 +87,24 @@
      Stored and Computed properties
      Observers for Stored properties = callbacks (willSet(newVal) & didSet(oldVal)) 
      Getters & Setters for Computed properties
+     willSet & didSet
 --------------------------------------
+18.05.2022
+                + Main Types:
+               /                     \
+      Value Type               Reference Type
+             |                        ( enums, classes)
+       structures       
+     (structs itself,
+  Int.. String, Bool...)
+  + Structures VS Classes:
+     1) struct has auto Init (requires all the non-static properties
+        for instantiation)
+     2) properties of class's inst  can be changed, even if the inst is const
+         properties of struct's inst CANNOT be changed if the inst is const
+     3) Value Type VS Reference Type ~> what changes & what doesn't
+     4) mutating func: for chaging the froperty of class or struct itself (not of inst)
+     5) static var : props which are not required to be inited during instantiation
+     + Lazy props:  'lazy var x = "I'm not a vampire" '
+        = 'nil by default'
+        are being ititialized in the first touch
