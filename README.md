@@ -23,7 +23,7 @@
      AutoLayout
      Layout constraints
   + DataTypes:
-     Int, UInt, Int8, 64 equivalent Int, UInt8, 16, 32, 64, Double, Float, String, Bool
+     Int, UInt, Int8, 64 equivalent Int, UInt8, 16, 32, 64, Double, Float, String, Bool, Any, Character
   + Concat: ""+""+""
      Interpolation: "" \(variable)
   + Basic operators:
@@ -108,3 +108,10 @@
      + Lazy props:  'lazy var x = "I'm not a vampire" '
         = 'nil by default'
         are being ititialized in the first touch
+---------------------------------------
+19.05.2022
+  + inheriting
+  + self. override super.
+  + extension
+  + protocols define minimum set of properties and methods for all signed classes and structures
+  --------------------------------------
